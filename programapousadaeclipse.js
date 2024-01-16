@@ -493,7 +493,7 @@ class sistema {
         else {
             //Verificar cada um até achar o index
             let indexuser = 0;
-            for (user of this.listausers) {
+            for (let user of this.listausers) {
                 if (user.id == this.usuariolog.id) {
                     return indexuser;
                 }
